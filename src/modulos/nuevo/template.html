@@ -1,0 +1,32 @@
+<form action="" class='form'>
+    {{mensaje}}
+    <h4>Datos de la opinion</h4>
+    <div class="form-group">
+        <label for="">Articulo</label>
+        <input class="form-control" placeholder='' type="text" name='articulo' id='articulo' />
+    </div>
+    <div class="form-group">
+        <label for="">Calificacion</label>
+        <input class="form-control" placeholder='' type="number" name='calificacion' id='calificacion'  min="1" max="5" size="1" />
+    </div>
+    <div class="form-group">
+  <label for="">Comentario</label>
+  <textarea class="form-control" rows="5" name='comentario' id='comentario'></textarea>
+</div>
+
+    <div class="form-group">
+        <label for="">Empresa</label>
+        <input class="form-control" placeholder='' type="text" name='empresa' id='empresa' />
+    </div>
+    <div class="form-group">
+        <label for="">Fecha</label>
+        <input class="form-control" placeholder='' type="date" name='fecha' id='fecha' />
+    </div>
+    <div class="form-group">    
+            <label for="">Nombre</label>
+        <input class="form-control" placeholder='' type="text" name='nombre' id='nombre' />
+    </div>
+    <div class="actions">
+        <button id='boton-nuevo' class='btn btn-primary'>Ingresar Opinion</button>
+    </div>
+</form>

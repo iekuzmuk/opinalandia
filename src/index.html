@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Opinalandia</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    
+<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBG5ABA-8Su9acXzf0mX2rC0GIRbd5hAqk",
+    authDomain: "ivank-6084c.firebaseapp.com",
+    databaseURL: "https://ivank-6084c.firebaseio.com",
+    projectId: "ivank-6084c",
+    storageBucket: "ivank-6084c.appspot.com",
+    messagingSenderId: "781225092700"
+  };
+  firebase.initializeApp(config);
+</script>
+  </head>
+  <body>
+<div class="container">
+<div class="page-header">
+<img src="http://opinalandia.com/logo.jpg" class="img-circle" alt=" opinalandia1.com" width="304" height="236">
+
+    <h1>OPINALANDIA </h1>  
+  </div>
+	<button id='login'>Inicia con Google</button>
+
+        <nav class='nav-bar navbar-expand-lg navbar-light bg-light'>
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="/listar">listar Opiniones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/nuevo">Ingresar Opinion</a>
+              </li>
+            </ul>
+          </nav>
+        <section class='content' id='main'></section>
+    </div>
+  </body>
+</html>

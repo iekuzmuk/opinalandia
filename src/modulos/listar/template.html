@@ -1,0 +1,24 @@
+<table class='table '>
+    <thead class='thead-dark'>
+        <tr>
+            <th>Articulo</th>
+            <th>Calificacion</th>
+            <th>Comentario</th>
+		<th>Empresa</th>
+		<th>Fecha</th>
+		<th>Nombre</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each opiniones}}
+            <tr>
+                <td>{{articulo}}</td>
+                <td>{{calificacion}}</td>
+                <td>{{comentario}}</td>
+		<td>{{empresa}}</td>
+		<td>{{fecha}}</td>
+		<td>{{nombre}}</td>
+            </tr>
+        {{/each}}
+    </tbody>
+</table>
