@@ -5,7 +5,7 @@ import catchLinks from 'catch-links';
 import listar from './modulos/listar';
 import nuevo from './modulos/nuevo';
 import $ from 'jquery';
-import firebaseConfig from '../firebase.config';
+import firebaseConfig from 'firebase.config';
 
 //import './index.scss';
 
